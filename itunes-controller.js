@@ -16,7 +16,7 @@ function ItunesController() {
         for (var i = 0; i < 50; i++) {
             var song = songList[i];
             template += `
-          <div class="row ">   
+          <div class="row temp">   
             <div class="col-sm-1 "><img src="${song.albumArt} " /></div>
             <div class="col-sm-2 "><p>Title: ${song.title}</p></div>
             <div class="col-sm-2 "><p>Artist: ${song.artist}</p></div>
@@ -28,7 +28,7 @@ function ItunesController() {
 
         }
 
-        song.innerHTML = template;
+        songList.innerHTML = template;
 
         document.getElementById("song-list").innerHTML = template;
 
