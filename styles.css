@@ -1,7 +1,7 @@
 body {
     background-image: url("https://images.pexels.com/photos/172292/pexels-photo-172292.jpeg?w=940&h=650&auto=compress&cs=tinysrgb");
-    height: 100%;
     width: 100%;
+    height: auto;
     color: white;
 }
 
@@ -12,7 +12,6 @@ body {
     margin-top: 2rem;
 }
 
-
-/* .temp {
-    color: black;
-} */
+#song {
+    margin-top: 2rem;
+}
